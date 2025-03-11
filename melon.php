@@ -192,7 +192,7 @@ shell_exec($wgetCommand);
 echo "Gambar disimpan sebagai: $imageFile\n";
 readline("ganti ip lalu enter");
 system('rm -rf cookie.txt');
-system('php manual.php');
+system('php melon.php');
 } else {
     echo "Gagal mendapatkan URL gambar.\n";
 }
